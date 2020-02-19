@@ -2,7 +2,7 @@
   <div class="footer_guide">
     <a href="javascript:;" class="guide_item" :class="{on:'/msite'===$route.path}" @click="goTo('/msite')">
       <span class="item_icon">
-        <i class="iconfont iconU"></i>
+        <i class="iconfont iconziyuan"></i>
       </span>
       <span>外卖</span>
     </a>

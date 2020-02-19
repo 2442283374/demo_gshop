@@ -10,7 +10,15 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
-    proxyTable: {},
+    proxyTable: {
+      '/api':{ // 匹配所有以'/api'开头的请求路径
+        target: 'http://localhost:3000', // 代理目标的基础路径
+        changeOrigin: true, // 支持跨域
+        pathRewrite: { // 重写路径:去掉路径中开头的'api'
+          '^/api': ''
+        }
+      }
+    },
 
     // Various Dev Server settings
     host: 'localhost', // can be overwritten by process.env.HOST
@@ -23,7 +31,7 @@ module.exports = {
     // Use Eslint Loader?
     // If true, your code will be linted during bundling and
     // linting errors and warnings will be shown in the console.
-    useEslint: true,
+    useEslint: false,
     // If true, eslint errors and warnings will also be shown in the error overlay
     // in the browser.
     showEslintErrorsInOverlay: false,

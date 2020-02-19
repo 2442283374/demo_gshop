@@ -40,36 +40,36 @@
       <!-- 我的订单 -->
       <a href='javascript:' class="my_order">
             <span>
-              <i class="iconfont icon-order-s"></i>
+              <i class="iconfont icondingdan"></i>
             </span>
         <div class="my_order_div">
           <span>我的订单</span>
           <span class="my_order_icon">
-                <i class="iconfont icon-jiantou1"></i>
+                <i class="iconfont iconjiantou1"></i>
               </span>
         </div>
       </a>
       <!-- 积分商城 -->
       <a href='javascript:' class="my_order">
             <span>
-              <i class="iconfont icon-jifen"></i>
+              <i class="iconfont iconjifen"></i>
             </span>
         <div class="my_order_div">
           <span>积分商城</span>
           <span class="my_order_icon">
-                <i class="iconfont icon-jiantou1"></i>
+                <i class="iconfont iconjiantou1"></i>
               </span>
         </div>
       </a>
       <!-- 硅谷外卖会员卡 -->
       <a href="javascript:" class="my_order">
             <span>
-              <i class="iconfont icon-vip"></i>
+              <i class="iconfont iconhuiyuan"></i>
             </span>
         <div class="my_order_div">
           <span>硅谷外卖会员卡</span>
           <span class="my_order_icon">
-                <i class="iconfont icon-jiantou1"></i>
+                <i class="iconfont iconjiantou1"></i>
               </span>
         </div>
       </a>
@@ -78,12 +78,12 @@
       <!-- 服务中心 -->
       <a href="javascript:" class="my_order">
             <span>
-              <i class="iconfont icon-fuwu"></i>
+              <i class="iconfont iconfuwuzhongxin"></i>
             </span>
         <div class="my_order_div">
           <span>服务中心</span>
           <span class="my_order_icon">
-                <i class="iconfont icon-jiantou1"></i>
+                <i class="iconfont iconjiantou1"></i>
               </span>
         </div>
       </a>
@@ -248,13 +248,13 @@ export default {
           >.iconfont
             margin-left -10px
             font-size 30px
-          .icon-order-s
+          .icondingdan
             color #02a774
-          .icon-jifen
+          .iconjifen
             color #ff5f3e
-          .icon-vip
+          .iconhuiyuan
             color #f90
-          .icon-fuwu
+          .iconfuwuzhongxin
             color #02a774
         .my_order_div
           width 100%
@@ -269,7 +269,7 @@ export default {
           .my_order_icon
             width 10px
             height 10px
-            .icon-jiantou1
+            .iconjiantou1
               color #bbb
               font-size 10px
 </style>
