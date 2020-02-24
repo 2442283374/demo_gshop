@@ -13,10 +13,11 @@ export default {
   mounted () {
     // this.$store.dispatch('getAddress')
     this.getAddress()
+    this.getUserInfo()
   },
 
   methods: {
-    ...mapActions(['getAddress']) // 映射函数
+    ...mapActions(['getAddress','getUserInfo']) // 映射函数
   },
   components: {
     FooterGuide
