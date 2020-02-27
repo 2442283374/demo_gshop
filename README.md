@@ -31,7 +31,7 @@ sudo mongod
 2020-02-27T10:59:16.281+0800 I NETWORK  [initandlisten] waiting for connections on port 27017
 ```
 
-3. 启动后台项目
+2. 启动后台项目
 安装依赖
 ```js
 cd ~/demo_gshop/gshop-client/gshop-server
@@ -66,7 +66,7 @@ server running on port 3000
 // --bin/www
 var port = normalizePort(process.env.PORT || '3000');
 ```
-4. 启动前台项目
+3. 启动前台项目
 安装依赖(有提交过依赖到远程仓库，最好还是安装一下)
 ```js
 npm insatll
